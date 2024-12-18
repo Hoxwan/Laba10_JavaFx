@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.WidgetsController">
+    <children>
+        <Label text="Widget 1" layoutX="14.0" layoutY="14.0"/>
+        <TextField fx:id="widget1" layoutX="100.0" layoutY="10.0"/>
+        <CheckBox fx:id="checkBox1" layoutX="250.0" layoutY="10.0" onAction="#handleCheckBox1"/>
+
+        <Label text="Widget 2" layoutX="14.0" layoutY="50.0"/>
+        <TextField fx:id="widget2" layoutX="100.0" layoutY="46.0"/>
+        <CheckBox fx:id="checkBox2" layoutX="250.0" layoutY="50.0" onAction="#handleCheckBox2"/>
+
+        <Label text="Widget 3" layoutX="14.0" layoutY="86.0"/>
+        <TextField fx:id="widget3" layoutX="100.0" layoutY="82.0"/>
+        <CheckBox fx:id="checkBox3" layoutX="250.0" layoutY="86.0" onAction="#handleCheckBox3"/>
+    </children>
+</AnchorPane>
