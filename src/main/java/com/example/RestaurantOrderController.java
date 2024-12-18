@@ -35,13 +35,13 @@ public class RestaurantOrderController {
         if (dish1.isSelected()) {
             int qty = Integer.parseInt(quantity1.getText());
             total += qty * 10;
-            summary.append("Dish 1: ").append(qty).append(" x \$10 = $").append(qty * 10).append("\n");
+            summary.append("Dish 1: ").append(qty).append(" x \\$10 = $").append(qty * 10).append("\n");
         }
 
         if (dish2.isSelected()) {
             int qty = Integer.parseInt(quantity2.getText());
             total += qty * 15;
-            summary.append("Dish 2: ").append(qty).append(" x \$15 = $").append(qty * 15).append("\n");
+            summary.append("Dish 2: ").append(qty).append(" x \\$15 = $").append(qty * 15).append("\n");
         }
 
         summary.append("Total: $").append(total);

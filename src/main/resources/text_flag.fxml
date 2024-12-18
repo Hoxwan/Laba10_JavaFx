@@ -4,12 +4,10 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.TextFlagController">
-    <children>
-        <Label text="Select Colors:" layoutX="14.0" layoutY="14.0"/>
-        <RadioButton fx:id="redButton" text="Red" layoutX="14.0" layoutY="40.0"/>
-        <RadioButton fx:id="greenButton" text="Green" layoutX="14.0" layoutY="70.0"/>
-        <RadioButton fx:id="blueButton" text="Blue" layoutX="14.0" layoutY="100.0"/>
-        <Button text="Draw" layoutX="14.0" layoutY="130.0" onAction="#drawFlag"/>
-        <Label fx:id="flagLabel" layoutX="14.0" layoutY="170.0"/>
-    </children>
+    <Label text="Select Colors:" layoutX="14.0" layoutY="14.0"/>
+    <RadioButton fx:id="redButton" text="Red" layoutX="14.0" layoutY="40.0"/>
+    <RadioButton fx:id="greenButton" text="Green" layoutX="14.0" layoutY="70.0"/>
+    <RadioButton fx:id="blueButton" text="Blue" layoutX="14.0" layoutY="100.0"/>
+    <Button text="Draw" layoutX="14.0" layoutY="130.0" onAction="#drawFlag"/>
+    <Label fx:id="flagLabel" layoutX="14.0" layoutY="170.0"/>
 </AnchorPane>

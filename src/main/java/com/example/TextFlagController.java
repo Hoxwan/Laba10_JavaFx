@@ -36,6 +36,6 @@ public class TextFlagController {
             colors.setLength(colors.length() - 2); // Удаляем последнюю запятую и пробел
         }
 
-        flagLabel.setText("Selected Colors: " + colors.toString());
+        flagLabel.setText("Selected Colors: " + colors);
     }
 }
